@@ -29,7 +29,7 @@ public class Persona {
                 int añoActual = LocalDate.now().getYear();
                 return añoActual - añoNacimiento;
             } catch (NumberFormatException e) {
-                System.err.println("ERROR: Formato de DNI no válido para calcular la edad.");
+                System.err.println("ERROR: Formyato de DNI no válido para calcular la edad.");
             }
         }
         return 0;
